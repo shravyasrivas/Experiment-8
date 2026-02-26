@@ -50,7 +50,7 @@ Step 3: Initialize total = 0.
 
 Step 4: Use for loop from 1 to n.
 
-Step 5: Add each number to total.
+Step 5: Add each number to total.(+=)
 
 Step 6: Display total.
 
@@ -64,9 +64,9 @@ Step 1: Start.
 
 Step 2: Define a 3×3 matrix using list of lists.
 
-Step 3: Use outer loop to traverse rows.
+Step 3: Use outer loop to traverse rows.(i)
 
-Step 4: Use inner loop to traverse columns.
+Step 4: Use inner loop to traverse columns.(j)
 
 Step 5: Print each element of the matrix.
 
@@ -74,7 +74,7 @@ Step 6: Stop.
 
 ---
 
-#### Algorithm for Problem Statement 5: Multiply Two 3×3 Matrices
+#### Algorithm for Problem Statement 5: Multiplication Of  Two Matrix using Python
 
 Step 1: Start.
 
@@ -82,9 +82,9 @@ Step 2: Define matrix A and matrix B.
 
 Step 3: Initialize result matrix with zero values.
 
-Step 4: Use three nested loops to perform multiplication.
+Step 4: Use three nested loops to perform multiplication for i,j and k.
 
-Step 5: Multiply corresponding elements and add the products.
+Step 5: Multiply corresponding elements and add the products.(R[i][j] +=A[i][k]*B[k][j])
 
 Step 6: Store the result in result matrix.
 
@@ -94,29 +94,16 @@ Step 8: Stop.
 
 ---
 
-#### Algorithm for Problem Statement 6: Display Matrix Using List Traversal
+
+#### Algorithm for Problem Statement 6: Print Prime Numbers In Range
 
 Step 1: Start.
 
-Step 2: Define a matrix.
+Step 2: Use for loop from 2 to 49.(input (1,50))
 
-Step 3: Traverse each row using for loop.
+Step 3: For each number, check divisibility from 2 to number-1.(num%i==0)
 
-Step 4: Print each row.
-
-Step 5: Stop.
-
----
-
-#### Algorithm for Problem Statement 7: Print Prime Numbers Between 2 and 49
-
-Step 1: Start.
-
-Step 2: Use for loop from 2 to 49.
-
-Step 3: For each number, check divisibility from 2 to number-1.
-
-Step 4: If the number is divisible, terminate inner loop.
+Step 4: If the number is divisible, terminate inner loop using break.
 
 Step 5: If not divisible by any number, print the number.
 
@@ -124,25 +111,25 @@ Step 6: Stop.
 
 ---
 
-#### Algorithm for Problem Statement 8: Print Inverted Right Triangle Pattern
+#### Algorithm for Problem Statement 7: Print Inverted Right Triangle Pattern
 
 Step 1: Start.
 
-Step 2: Use for loop from 10 to 1.
+Step 2: Use for loop from n to 1.(ie.(10,0,-1):)
 
-Step 3: Print stars equal to the loop value.
+Step 3: Print stars equal to the loop value.(("* " *i)
 
 Step 4: Stop.
 
 ---
 
-#### Algorithm for Problem Statement 9: Print Pyramid Pattern
+#### Algorithm for Problem Statement 8: Print Pyramid Pattern Of Stars
 
 Step 1: Start.
 
 Step 2: Set rows = 5.
 
-Step 3: Use for loop from 1 to rows.
+Step 3: Use for loop from 1 to rows.(1,row + 1)
 
 Step 4: Print required spaces.
 
@@ -150,21 +137,6 @@ Step 5: Print stars.
 
 Step 6: Stop.
 
----
-
-#### Algorithm for Problem Statement 10: Print Inverted Pyramid Pattern
-
-Step 1: Start.
-
-Step 2: Set n = 5.
-
-Step 3: Use for loop from 0 to n-1.
-
-Step 4: Print required spaces.
-
-Step 5: Print stars.
-
-Step 6: Stop.
 
 ---
 
